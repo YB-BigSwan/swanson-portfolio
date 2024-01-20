@@ -4,12 +4,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin-bottom: 2rem;
 }
 
 .nav-container {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .nav-item {

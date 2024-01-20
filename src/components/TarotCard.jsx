@@ -6,6 +6,8 @@ function TarotCard() {
   return (
     <>
       <div className="tarot-container">
+        <div className="shadow-wrap"></div>
+        <div className="layer"></div>
         <div className="tarot-card"></div>
         <div className="btn-container">
           <LinkedInSVG />
