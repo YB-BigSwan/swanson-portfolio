@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  --darkest: #0c002e;
+  --blue: #5bdfff;
+  --seafoam: #59ffdc;
+  --green: #5dffad;
+  --light-pink: #ffc1df;
+  --bold-pink: #ff57b6;
+  --purple: #e2a4ff;
+}
