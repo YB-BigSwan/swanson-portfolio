@@ -18,7 +18,7 @@ function About() {
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Perspiciatis dolorum dolorem ipsa facilis laboriosam quasi commodi
             laudantium necessitatibus inventore, a accusamus aperiam fugiat,
-            blanditiis quo officiis deserunt nulla excepturi. Quaerat?
+            blanditiis quo officiis deserunt nulla excepturi. Quaerat? blah
           </p>
         </div>
       </div>
