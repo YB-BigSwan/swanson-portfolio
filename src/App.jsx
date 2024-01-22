@@ -1,6 +1,6 @@
-import TarotCard from "./components/TarotCard";
-
 import Header from "./components/Header";
+import TarotCard from "./components/TarotCard";
+import About from "./components/About";
 import "./App.css";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <>
       <Header />
       <TarotCard />
+      <About />
     </>
   );
 }
