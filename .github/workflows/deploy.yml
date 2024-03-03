@@ -50,6 +50,3 @@ jobs:
           cname: www.swansondev.me
           env:
             VITE_FORM_KEY: ${{ secrets.VITE_FORM_KEY }}
-
-      - name: Log Form Key
-        run: echo "Form Key: $VITE_FORM_KEY"
