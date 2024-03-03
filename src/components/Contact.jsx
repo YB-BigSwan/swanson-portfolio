@@ -7,7 +7,7 @@ import "../styles/Homepage.css";
 
 const Contact = () => {
   const formSpreeKey = import.meta.env.VITE_FORM_KEY;
-  console.log(String(formSpreeKey));
+  console.log(formSpreeKey.toString());
   const [state, handleSubmit] = useForm(formSpreeKey);
   const [openSnackbar, setOpenSnackbar] = useState(false);
   const [formData, setFormData] = useState({
