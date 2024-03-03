@@ -48,5 +48,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           cname: www.swansondev.me
-          env:
-            VITE_FORM_KEY: ${{ secrets.FORM_KEY }}
+        env:
+          VITE_FORM_KEY: ${{ secrets.FORM_KEY }}
