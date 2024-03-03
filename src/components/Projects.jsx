@@ -1,16 +1,29 @@
-import ProjectCard from "./ProjectCard";
+import { Card, CardContent, Typography } from "@mui/material";
+import "../styles/Homepage.css";
 
-function Projects() {
+const Projects = () => {
   return (
-    <>
-      <div className="projects-container">
-        {/* OMG */}
-        <ProjectCard />
-        {/* Siba */}
-        <ProjectCard />
+    <div className="projects-container">
+      <h2>Projects</h2>
+      <div className="card-container">
+        <Card>
+          <CardContent className="card-descripton">
+            <Typography>Hello World</Typography>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent className="card-descripton">
+            <Typography>Hello World</Typography>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardContent className="card-descripton">
+            <Typography>Hello World</Typography>
+          </CardContent>
+        </Card>
       </div>
-    </>
+    </div>
   );
-}
+};
 
 export default Projects;

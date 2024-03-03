@@ -1,31 +1,21 @@
 import Logo from "../assets/logo.svg";
-import "../styles/Header.css";
+import Button from "@mui/material/Button";
+import BurgerIcon from "../assets/burger-menu.svg";
+import "../styles/Homepage.css";
 
-function Header() {
+const Header = () => {
   return (
     <>
       <div className="header-container">
-        <img src={Logo} alt="swansondev logo" />
-        <nav className="nav-container">
-          <a href="" className="nav-item">
-            Home
-          </a>
-          <a href="" className="nav-item">
-            About
-          </a>
-          <a href="" className="nav-item">
-            Projects
-          </a>
-          <a href="" className="nav-item">
-            Contact
-          </a>
-          <a href="" className="nav-item">
-            Info
-          </a>
-        </nav>
+        <div className="header">
+          <img src={Logo} alt="swansondev logo" />
+          <Button>
+            <img src={BurgerIcon} alt="burger  menu icon" />
+          </Button>
+        </div>
       </div>
     </>
   );
-}
+};
 
 export default Header;

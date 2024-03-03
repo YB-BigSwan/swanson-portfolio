@@ -1,14 +1,19 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Homepage from "./views/Homepage";
 import Header from "./components/Header";
-import TarotCard from "./components/TarotCard";
-import About from "./components/About";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Header />
-      <TarotCard />
-      <About />
+      <Router basename="/">
+        <div className="page">
+          <Header />
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+          </Routes>
+        </div>
+      </Router>
     </>
   );
 }
