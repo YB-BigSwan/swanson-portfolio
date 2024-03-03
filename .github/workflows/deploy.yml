@@ -52,5 +52,6 @@ jobs:
           VITE_FORM_KEY: ${{ secrets.VITE_FORM_KEY }}
 
       - name: Log Form Key
-        run: echo "Form Key: ${{ env.VITE_FORM_KEY }}"
-
+        run: |
+          echo "Form Key: ${{ secrets.VITE_FORM_KEY }}"
+          env
