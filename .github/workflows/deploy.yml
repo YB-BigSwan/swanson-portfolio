@@ -49,4 +49,4 @@ jobs:
           publish_dir: ./dist
           cname: www.swansondev.me
         env:
-          VITE_FORM_KEY: ${{ secrets.FORM_KEY }}
+          VITE_FORM_KEY: ${{ secrets.VITE_FORM_KEY }}
