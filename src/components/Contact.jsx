@@ -6,8 +6,8 @@ import MuiAlert from "@mui/material/Alert";
 import "../styles/Homepage.css";
 
 const Contact = () => {
+  console.log("VITE_FORM_KEY:", import.meta.env);
   const [state, handleSubmit] = useForm(import.meta.env.VITE_FORM_KEY);
-  console.log("VITE_FORM_KEY:", import.meta.env.VITE_FORM_KEY);
   const [openSnackbar, setOpenSnackbar] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
