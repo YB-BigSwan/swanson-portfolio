@@ -48,5 +48,9 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           cname: www.swansondev.me
-          env:
-            VITE_FORM_KEY: ${{ secrets.VITE_FORM_KEY }}
+        env:
+          VITE_FORM_KEY: ${{ secrets.VITE_FORM_KEY }}
+
+      - name: Log Form Key
+        run: echo "Form Key: ${{ env.VITE_FORM_KEY }}"
+
