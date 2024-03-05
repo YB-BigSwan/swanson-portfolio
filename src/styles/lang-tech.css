@@ -1,0 +1,81 @@
+/* Lang and Tech */
+.lt-container {
+  width: 78%;
+  margin-top: 2rem;
+  color: var(--mint);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 5rem;
+}
+
+.lt-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lt-btns {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.lt-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0.5rem;
+  color: var(--mint);
+  border: 2px solid var(--mint);
+  border-radius: 10px;
+}
+
+.lt-btn:hover {
+  transform: scale(1.01);
+  transition: 0.3s ease;
+}
+
+.lt-svg {
+  fill: var(--light);
+}
+
+@media screen and (max-width: 1349px) {
+  .lt-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .lt-wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 999px) {
+  .lt-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .lt-wrapper {
+    width: 100%;
+  }
+
+  .lt-btns {
+    gap: 1rem;
+  }
+
+  .lt-btn {
+    gap: 0.5rem;
+  }
+
+  .lt-svg {
+    height: 30px;
+  }
+}

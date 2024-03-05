@@ -1,9 +1,9 @@
-import LinkedInSVG from "../assets/LinkedIn.svg";
-import GitHubSVG from "../assets/GitHub.svg";
-import ResumeSVG from "../assets/CV.svg";
+import LinkedInSVG from "../assets/link-logo/LinkedIn.svg";
+import GitHubSVG from "../assets/link-logo/GitHub.svg";
+import ResumeSVG from "../assets/link-logo/CV.svg";
 import pfp from "../assets/pfp-drip.svg";
 import SwansonCV from "../assets/Stephen_Swanson_CV.pdf";
-import "../styles/Homepage.css";
+import "../styles/hero-section.css";
 
 const HeroSection = () => {
   return (
@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="hero-text">
           <h1>STEPHEN SWANSON</h1>
 
-          <h3>WEB | SOFTWARE DEVELOPER</h3>
+          <p className="job-title">WEB | SOFTWARE DEVELOPER</p>
 
           <div className="links">
             <a
@@ -21,19 +21,36 @@ const HeroSection = () => {
               rel="noreferrer"
               className="hero-link"
             >
-              <img src={LinkedInSVG} alt="A link to LinkedIn" />
+              <img
+                src={LinkedInSVG}
+                alt="A link to LinkedIn"
+                className="link-img"
+              />
             </a>
 
             <a
               href="https://github.com/YB-BigSwan"
               target="_blank"
               rel="noreferrer"
+              className="hero-link"
             >
-              <img src={GitHubSVG} alt="A link to GitHub" />
+              <img
+                src={GitHubSVG}
+                alt="A link to GitHub"
+                className="link-img"
+              />
             </a>
 
-            <a href={SwansonCV} download="Stephen_Swanson_CV.pdf">
-              <img src={ResumeSVG} alt="A link to Stephen's CV" />
+            <a
+              href={SwansonCV}
+              download="Stephen_Swanson_CV.pdf"
+              className="hero-link"
+            >
+              <img
+                src={ResumeSVG}
+                alt="A link to Stephen's CV"
+                className="link-img"
+              />
             </a>
           </div>
 

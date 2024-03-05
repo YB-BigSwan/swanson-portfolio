@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import "../styles/Homepage.css";
+import "../styles/about-section.css";
 
 const About = () => {
   return (
@@ -9,12 +9,11 @@ const About = () => {
       <div className="about-text">
         <p>
           Hi, I’m Stephen! A third year Business Information Technology student
-          at Haaga-Helia UAS. I major in Software
-          <br /> Development and minor in Digital Service Design. As I near
-          graduation, I am on the lookout for internships or junior <br />
-          roles to kickstart my career. Beyond that, my goal is to learn new
-          things every day and continue challenging myself to grow as I believe
-          personal growth never stops.
+          at Haaga-Helia UAS. I major in Software Development and minor in
+          Digital Service Design. As I near graduation, I am on the lookout for
+          internships or junior roles to kickstart my career. Beyond that, my
+          goal is to learn new things every day and continue challenging myself
+          to grow as I believe personal growth never stops.
         </p>
         <p>
           My journey into software development began when I was preparing to

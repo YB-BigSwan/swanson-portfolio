@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
-import "../styles/Homepage.css";
+import "../styles/contact.css";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm(import.meta.env.VITE_FORM_KEY);

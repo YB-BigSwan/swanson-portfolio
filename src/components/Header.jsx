@@ -1,12 +1,12 @@
 import Logo from "../assets/logo.svg";
-import "../styles/Homepage.css";
+import "../styles/header.css";
 
 const Header = () => {
   return (
     <>
       <div className="header-container">
         <div className="header">
-          <img src={Logo} alt="swansondev logo" />
+          <img src={Logo} alt="swansondev logo" className="logo" />
         </div>
       </div>
     </>

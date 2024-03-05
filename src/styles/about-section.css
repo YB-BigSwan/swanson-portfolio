@@ -1,0 +1,36 @@
+/* About Me */
+.about-container {
+  width: 78%;
+  margin-top: 5rem;
+  color: var(--mint);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-text {
+  background-color: var(--mint);
+  color: var(--dark);
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: left;
+}
+
+@media screen and (max-width: 1349px) {
+}
+
+@media screen and (max-width: 1025px) {
+}
+
+@media screen and (max-width: 431px) {
+  .about-container {
+    margin-top: 13.5rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .about-container {
+    margin-top: 16rem;
+  }
+}
