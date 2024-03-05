@@ -70,13 +70,14 @@
   color: var(--light);
   border-radius: 5px;
   padding: 0.5rem 1rem;
-  border: none;
+  border: 1px solid var(--dark-green);
+  font-weight: 600;
 }
 
 .form-submit:hover {
   background-color: transparent;
   color: var(--dark-green);
-  border: 1px solid var(--dark-green);
+  transition: 0.3s ease;
 }
 
 .form-submit:focus {

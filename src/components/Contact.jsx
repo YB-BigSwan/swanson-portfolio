@@ -97,7 +97,7 @@ const Contact = () => {
           type="submit"
           disabled={state.submitting}
         >
-          Submit
+          Send Message
         </button>
       </form>
 
