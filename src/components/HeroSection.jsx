@@ -1,7 +1,8 @@
 import LinkedInSVG from "../assets/link-logo/LinkedIn.svg";
 import GitHubSVG from "../assets/link-logo/GitHub.svg";
 import ResumeSVG from "../assets/link-logo/CV.svg";
-import pfp from "../assets/pfp-drip.svg";
+import pfpDrip from "../assets/pfp-drip.svg";
+import pfpImg from "../assets/pfp-img.png";
 import SwansonCV from "../assets/Stephen_Swanson_CV.pdf";
 import "../styles/hero-section.css";
 
@@ -66,7 +67,12 @@ const HeroSection = () => {
         </div>
 
         <div className="hero-image">
-          <img className="pfp" src={pfp} alt="A picture of stephen" />
+          <img className="pfp" src={pfpDrip} alt="A profile picture banner" />
+          <img
+            className="profile-pic"
+            src={pfpImg}
+            alt="A picture of stephen"
+          />
         </div>
       </div>
     </div>

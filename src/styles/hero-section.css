@@ -21,15 +21,19 @@
   align-items: center;
   justify-content: center;
   width: 50%;
-  padding: 5rem 2rem 5rem 2rem;
+  padding: 5rem 2rem 4rem 2rem;
+  font-weight: 400;
 }
 
 h1 {
   margin-bottom: 0;
+  font-size: 3rem;
+  font-weight: 600;
 }
 
 .job-title {
   font-size: 1.3rem;
+  font-weight: 500;
 }
 
 .links {
@@ -52,17 +56,27 @@ h1 {
 }
 
 .hero-image {
+  display: flex;
   width: fit-content;
+  position: absolute;
+  top: 11%;
+  right: 15%;
 }
 
 .pfp {
   width: 28rem;
-  position: absolute;
-  top: 8%;
-  right: 15%;
+  z-index: 999;
 }
 
-@media screen and (max-width: 1349px) {
+.profile-pic {
+  width: 24rem;
+  position: absolute;
+  top: 8.66%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1425px) {
   .hero-text {
     width: 45%;
   }
@@ -70,12 +84,24 @@ h1 {
   .hero-description {
     width: 60%;
   }
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-image {
+    width: 30%;
+    min-width: 25rem;
+    top: 16%;
+    right: 11%;
+  }
+
+  .profile-pic {
+    width: 22rem;
+  }
 
   .pfp {
     width: 30%;
     min-width: 25rem;
-    top: 14%;
-    right: 11%;
   }
 
   .link-img {
@@ -83,7 +109,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1051px) {
   .hero-text {
     padding: 3rem 1rem;
     width: 50%;
@@ -93,11 +119,20 @@ h1 {
     width: 80%;
   }
 
-  .pfp {
-    top: 17%;
-    right: 8%;
+  .hero-image {
+    top: 18%;
+    right: 10.8%;
     width: 30%;
     min-width: 20rem;
+  }
+
+  .pfp {
+    width: 30%;
+    min-width: 20rem;
+  }
+
+  .profile-pic {
+    width: 17rem;
   }
 }
 
@@ -109,6 +144,10 @@ h1 {
     flex-direction: column;
   }
 
+  h1 {
+    font-size: 2rem;
+  }
+
   .hero-text {
     width: 100%;
     padding: 0 0 95% 0;
@@ -118,7 +157,7 @@ h1 {
     width: 70%;
   }
 
-  .pfp {
+  .hero-image {
     top: 83%;
     width: 40%;
     min-width: 20rem;
@@ -148,8 +187,8 @@ h1 {
     width: 70%;
   }
 
-  .pfp {
-    top: 65%;
+  .hero-image {
+    top: 85%;
     width: 40%;
     min-width: 20rem;
     left: 50%;
@@ -162,8 +201,8 @@ h1 {
 }
 
 @media screen and (max-width: 376px) {
-  .pfp {
-    top: 82%;
+  .hero-image {
+    top: 105%;
     width: 40%;
     min-width: 20rem;
     left: 50%;
