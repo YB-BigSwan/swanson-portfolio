@@ -159,7 +159,7 @@ h1 {
   }
 
   .hero-image {
-    top: 45rem;
+    top: 34rem;
     width: 40%;
     min-width: 20rem;
     left: 50%;
@@ -189,7 +189,7 @@ h1 {
   }
 
   .hero-image {
-    top: 45rem;
+    top: 37rem;
     width: 40%;
     min-width: 20rem;
     left: 50%;
@@ -203,7 +203,7 @@ h1 {
 
 @media screen and (max-width: 376px) {
   .hero-image {
-    top: 45rem;
+    top: 37rem;
     width: 40%;
     min-width: 20rem;
     left: 50%;
