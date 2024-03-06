@@ -27,10 +27,10 @@ const About = () => {
         </p>
         <p>
           If you share my enthusiasm, feel free to explore my portfolio! You can
-          also find my GitHub, and CV at the top. Let's connect—whether it's
-          about opportunities or a shared love for coding, you're welcome to
-          reach out to me on LinkedIn or you can send me an email using the
-          contact form below!
+          also find my LinkedIn, GitHub, and CV at the top. Let's connect —
+          whether it's about opportunities or a shared love for coding, you're
+          welcome to reach out to me on LinkedIn or you can send me an email
+          using the contact form below!
         </p>
       </div>
     </div>
