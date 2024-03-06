@@ -61,8 +61,8 @@ const HeroSection = () => {
           </p>
 
           <p className="hero-description">
-            I am currently seeking a position that supports curious and
-            passionate developers who are hungry to learn more.
+            I am currently seeking a position where I can challenge myself and
+            continue to grow as a developer.
           </p>
         </div>
 

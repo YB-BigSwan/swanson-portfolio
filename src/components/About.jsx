@@ -8,37 +8,28 @@ const About = () => {
 
       <div className="about-text">
         <p>
-          Hi, I’m Stephen! A third year Business Information Technology student
-          at Haaga-Helia UAS. I major in Software Development and minor in
+          Hi! I’m Stephen, a third year Business Information Technology student
+          based in Helsinki. I major in Software Development and minor in
           Digital Service Design. As I near graduation, I am on the lookout for
-          internships or junior roles to kickstart my career. Beyond that, my
-          goal is to learn new things every day and continue challenging myself
-          to grow as I believe personal growth never stops.
+          internships or junior positions to kickstart my career. Beyond that,
+          my goal is to stay up-to-date with current practices and technologies
+          and continue challenging myself as personal growth never stops.
         </p>
         <p>
           My journey into software development began when I was preparing to
-          move to Finland. I was already looking to change careers when a friend
-          asked if I knew anything about programming and if I could try to make
-          him something using JUCE, a C++ framework for making audio plug-ins. I
-          figured I had nothing to lose and said yes.
+          move to Finland. I was looking to change careers when a friend asked
+          if I knew anything about programming and if I could try to make him
+          something using JUCE, a C++ framework for making audio plug-ins. While
+          I didn't know enough to make what he was requesting at the time, the
+          task ignited a sense of curiosity that lead me to where I am now.
+          Since then, I have discovered a deep satisfaction in the challenging
+          and exciting space that is web and software development.
         </p>
         <p>
-          Although the task was too much for me to take on at the time, I felt a
-          spark. Software development was a field where I could fulfill both my
-          desire to challenge my problem solving skills and also have some
-          creative expression. Embracing that challenge, and noting that audio
-          plug-in development was rather niche, I enrolled at Haaga-Helia
-          seeking something more practical. Since then, I have discovered a deep
-          satisfaction in the continuous learning environment that is web and
-          software development.
-        </p>
-        <p>
-          My coding philosophy revolves around keeping things clean, writing
-          self-documenting code, and maintaining a perpetual learning mindset.
-          If you share my enthusiasm, explore my portfolio, GitHub, and CV at
-          the top. Let's connect—whether it's about opportunities or a shared
-          love for coding, I'm just an email away. If you want to get in touch,
-          head on over to my contact form!
+          If you share my enthusiasm, feel free to explore my portfolio, GitHub,
+          and CV at the top. Let's connect—whether it's about opportunities or a
+          shared love for coding, you're welcome to reach out to me on LinkedIn
+          or you can send me an email using the contact form below!
         </p>
       </div>
     </div>

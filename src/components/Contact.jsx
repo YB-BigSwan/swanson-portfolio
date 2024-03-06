@@ -21,6 +21,7 @@ const Contact = () => {
     setOpenSnackbar(false);
   };
 
+  // Open snackbar and clear form
   useEffect(() => {
     if (state.succeeded) {
       setOpenSnackbar(true);

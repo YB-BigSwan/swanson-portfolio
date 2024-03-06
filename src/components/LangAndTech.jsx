@@ -1,7 +1,6 @@
 import NextLogo from "../assets/lt-icon/next.svg";
 import GHWhite from "../assets/lt-icon/github-white.svg";
 import ExpressLogo from "../assets/lt-icon/express.svg";
-
 import "../styles/lang-tech.css";
 
 const LangAndTech = () => {
