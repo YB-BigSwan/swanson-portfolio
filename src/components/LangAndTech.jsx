@@ -164,6 +164,15 @@ const LangAndTech = () => {
             />{" "}
             GitLab CI/CD
           </div>
+          <div className="lt-btn">
+            <img
+              height="40"
+              src="https://www.svgrepo.com/show/448221/docker.svg"
+              alt="GitLab logo"
+              className="lt-svg"
+            />
+            Docker
+          </div>
         </div>
       </div>
     </div>
