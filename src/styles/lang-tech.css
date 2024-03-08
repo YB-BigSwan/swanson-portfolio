@@ -54,9 +54,6 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
-}
-
 @media screen and (max-width: 999px) {
   .lt-container {
     flex-direction: column;
@@ -77,5 +74,11 @@
 
   .lt-svg {
     height: 30px;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .lt-container {
+    margin-top: 2rem;
   }
 }
