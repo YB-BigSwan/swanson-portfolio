@@ -96,7 +96,15 @@ const LangAndTech = () => {
             />
             Next
           </div>
-
+          <div className="lt-btn">
+            <img
+              height="40"
+              src="https://www.vectorlogo.zone/logos/leafletjs/leafletjs-icon.svg"
+              alt="Leaflet logo"
+              className="lt-svg"
+            />{" "}
+            Leaflet
+          </div>
           <div className="lt-btn">
             <img
               height="40"
@@ -141,15 +149,6 @@ const LangAndTech = () => {
               className="lt-svg"
             />
             MongoDB
-          </div>
-          <div className="lt-btn">
-            <img
-              height="40"
-              src="https://www.vectorlogo.zone/logos/leafletjs/leafletjs-icon.svg"
-              alt="Leaflet logo"
-              className="lt-svg"
-            />{" "}
-            Leaflet
           </div>
           <div className="lt-btn">
             <img height="40" src={GHWhite} alt="GitHub logo" /> GitHub Actions
