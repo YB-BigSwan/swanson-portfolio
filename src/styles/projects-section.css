@@ -21,8 +21,7 @@
 .project-card {
   border-radius: 10px !important;
   transition: 0.3s ease;
-  width: 20rem;
-  min-width: 19rem;
+  width: 22%;
   max-height: 22rem;
 }
 
@@ -111,6 +110,11 @@
     flex-wrap: wrap;
     justify-content: flex-start;
   }
+
+  .project-card {
+    min-width: 15%;
+    width: 47%;
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -118,6 +122,7 @@
     flex-wrap: wrap;
   }
   .project-card {
+    min-width: 15%;
     width: 47%;
   }
 }
