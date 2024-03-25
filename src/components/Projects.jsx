@@ -52,7 +52,7 @@ const Projects = () => {
                 <b>Solve the SDGs Hackathon:</b> This project was made by our
                 team for the 48 hour Solve the SDGs hackathon hosted by Aalto
                 University. Our challenge was to create a platform that
-                addressed SDG 4.7, speifically, to get University students
+                addressed SDG 4.7, specifically, to get University students
                 involved in sustainable development.
                 <br />
                 <br />
