@@ -6,7 +6,7 @@ import {
   CardMedia,
   Button,
 } from "@mui/material";
-import MapThumbnail from "../assets/project-img/map1.png";
+import GFThumbnail from "../assets/project-img/gf-thumbnail.png";
 import OmgThumbnail from "../assets/project-img/omg2.png";
 import SibaThumbnail from "../assets/project-img/siba2.png";
 import YetiThumbnail from "../assets/project-img/yeti1.png";
@@ -37,25 +37,41 @@ const Projects = () => {
           <CardMedia
             component="img"
             height={200}
-            image={MapThumbnail}
+            image={GFThumbnail}
             alt="A photo of a map demo project"
           />
           <CardContent className="card-content">
-            <Typography className="card-title">Map Demo</Typography>
+            <Typography className="card-title">GreenFuture Demo</Typography>
             <Typography className="role-description">
-              Role | Frontend Developer <br />
+              Role | Frontend Developer, DevOps, Scrum Master, UX/UI Designer
+              <br />
               <br />
             </Typography>
             <div className={`content-toggle ${expanded.map ? "expanded" : ""}`}>
               <Typography className="card-description">
-                This take-home-task utilizes Leaflet to display raster map tiles
-                from free XYZ map tile servers. Users can pan, zoom and change
-                layers.
+                <b>Solve the SDGs Hackathon:</b> This project was made by our
+                team for the 48 hour Solve the SDGs hackathon hosted by Aalto
+                University. Our challenge was to create a platform that
+                addressed SDG 4.7, speifically, to get University students
+                involved in sustainable development.
+                <br />
+                <br />
+                During the project, my primary role was as the teams frontend
+                developer. In addition to this I also set-up the projects CI/CD
+                pipeline to allow the team, including our non-technical member,
+                to work together seamlessly.
+                <br /> <br />
+                Finally, as I was familiar with the pacing of hackathons, I
+                assumed the role of a pseudo-Scrum master by organizing the 5
+                meetings, maintaining our groups kanban board, facilitating
+                communication, and making sure all members of the team
+                (frontend, backend, database developer, and copywriter) were on
+                the same page.
                 <br /> <br />
                 You can find more info about this project on GitHub!
               </Typography>
               <a
-                href="https://github.com/YB-BigSwan/lensor-map"
+                href="https://github.com/YB-BigSwan/GreenFuture"
                 target="_blank"
                 rel="noreferrer"
                 className="project-link"
