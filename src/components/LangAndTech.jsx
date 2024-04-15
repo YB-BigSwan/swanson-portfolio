@@ -48,6 +48,15 @@ const LangAndTech = () => {
           <div className="lt-btn">
             <img
               height="40"
+              src="https://www.svgrepo.com/show/353622/c-sharp.svg"
+              alt="C Sharp logo"
+              className="lt-svg"
+            />
+            C#
+          </div>
+          <div className="lt-btn">
+            <img
+              height="40"
               src="https://www.svgrepo.com/show/452234/java.svg"
               alt="Java logo"
               className="lt-svg"
@@ -99,6 +108,24 @@ const LangAndTech = () => {
           <div className="lt-btn">
             <img
               height="40"
+              src="https://www.svgrepo.com/show/376369/dotnet.svg"
+              alt="Dotnet logo"
+              className="lt-svg"
+            />
+            .NET
+          </div>
+          <div className="lt-btn">
+            <img
+              height="40"
+              src="https://cdn.worldvectorlogo.com/logos/blazor.svg"
+              alt="Blazor logo"
+              className="lt-svg"
+            />
+            Blazor
+          </div>
+          <div className="lt-btn">
+            <img
+              height="40"
               src="https://www.vectorlogo.zone/logos/leafletjs/leafletjs-icon.svg"
               alt="Leaflet logo"
               className="lt-svg"
@@ -140,6 +167,15 @@ const LangAndTech = () => {
               className="lt-svg"
             />
             MariaDB
+          </div>
+          <div className="lt-btn">
+            <img
+              height="40"
+              src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg"
+              alt="MariaDB logo"
+              className="lt-svg"
+            />
+            SQL Server
           </div>
           <div className="lt-btn">
             <img
