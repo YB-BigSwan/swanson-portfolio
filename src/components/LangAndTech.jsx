@@ -75,6 +75,15 @@ const LangAndTech = () => {
           <div className="lt-btn">
             <img
               height="40"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png?20170928190710"
+              alt="Python logo"
+              className="lt-svg"
+            />
+            C++
+          </div>
+          <div className="lt-btn">
+            <img
+              height="40"
               src="https://www.svgrepo.com/show/331760/sql-database-generic.svg"
               alt="SQL logo"
               className="lt-svg"
@@ -207,6 +216,15 @@ const LangAndTech = () => {
               className="lt-svg"
             />
             Docker
+          </div>
+          <div className="lt-btn">
+            <img
+              height="40"
+              src="https://cdn.prod.website-files.com/5f15081919fdf673994ab5fd/6609e5396f72d5b2e92a84be_Directus-Logo.svg"
+              alt="GitLab logo"
+              className="lt-svg"
+            />
+            Directus
           </div>
         </div>
       </div>
